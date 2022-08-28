@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+}
+
+li {
+    display : inline;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+button:hover {
+    border: 1px solid olive;
+}
+
+button { 
+  all: unset;
+  background-color: silver;
+  padding: 2%;
+  border: 1px solid silver;
+  border-radius: 25% 25% / 25% 25%;
+}
