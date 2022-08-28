@@ -1,5 +1,18 @@
+#container {
+  width: 50%;
+  height: 50%;
+  margin: 15% auto;
+}
+
+p {
+  margin: 0 25% 25% 25%;
+}
+
 ul {
+  width: 50%;
+  height: 50%;
   list-style: none;
+  margin: 0 auto;
 }
 
 li {
