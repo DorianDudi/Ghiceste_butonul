@@ -1,34 +1,39 @@
+body {
+  background-color: black;
+}
+
 #container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 33% 33% 33%;
   width: 50%;
-  height: 50%;
   margin: 15% auto;
 }
 
+.btn {
+  width: 50px;
+  height: 50px;
+  border: 3px solid silver;
+  background-color: black;
+  border-radius: 50% 50% / 50% 50%;
+}
+
+.btn:hover {
+  border: 3px solid olive;
+}
+
 p {
-  margin: 0 25% 25% 25%;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
 }
 
-ul {
-  width: 50%;
-  height: 50%;
-  list-style: none;
-  margin: 0 auto;
-}
-
-li {
-    display : inline;
-    font-size: 60px;
-    font-family: sans-serif;
-}
-
-button:hover {
-    border: 1px solid olive;
-}
-
-button { 
+button {
   all: unset;
-  background-color: silver;
-  padding: 2%;
-  border: 1px solid silver;
-  border-radius: 25% 25% / 25% 25%;
+  font-size: 43px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  width: 50px;
+  height: 50px;
 }
