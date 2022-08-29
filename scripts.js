@@ -11,6 +11,6 @@ function getClickID() {
     winning_number = getRandomIntFromTo(1, 3);
     document.getElementById('winner').innerText = winning_number;
   } else {
-  	alert("Wrong!");
+  	alert("Try, try... Try again!");
   }
 }
